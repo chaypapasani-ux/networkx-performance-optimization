@@ -1,0 +1,28 @@
+{
+  "repo": "networkx/networkx",
+  "baseline_sha": "main",
+  "candidate_description": "Reduced Python overhead in betweenness centrality traversal through adjacency caching, local method binding, and optimized dictionary access.",
+  "baseline_time_s": {
+    "median": 32.64,
+    "iqr": 1.78,
+    "n_warmup": 2,
+    "n_measured": 7
+  },
+  "candidate_time_s": {
+    "median": 22.51,
+    "iqr": 0.59,
+    "n_warmup": 2,
+    "n_measured": 7
+  },
+  "speedup": 1.45,
+  "correctness": {
+    "existing_tests_pass": true,
+    "output_equivalent": true,
+    "tolerance": "exact",
+    "tolerance_justification": "No numerical changes observed during validation."
+  },
+  "environment": {
+    "python_version": "3.14.5",
+    "colab_runtime": "CPU"
+  }
+}

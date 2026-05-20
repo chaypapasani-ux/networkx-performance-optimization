@@ -1,0 +1,11 @@
+Measured runs
+Run 1: 22.17 seconds
+Run 2: 29.58 seconds
+Run 3: 22.47 seconds
+Run 4: 22.13 seconds
+Run 5: 22.57 seconds
+Run 6: 22.51 seconds
+Run 7: 22.76 seconds
+
+Median: 22.51
+IQR: 0.59
