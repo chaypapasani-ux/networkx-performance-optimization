@@ -1,6 +1,6 @@
 {
   "repo": "networkx/networkx",
-  "baseline_sha": "main",
+  "baseline_sha": "7c14c0bf3ce7f03b8c872a1509bb12969153e615",
   "candidate_description": "Reduced Python overhead in betweenness centrality traversal through adjacency caching, local method binding, and optimized dictionary access.",
   "baseline_time_s": {
     "median": 32.64,
